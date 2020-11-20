@@ -339,3 +339,9 @@ MeInfoGram/Pods/Pods.xcodeproj/xcuserdata/mobanmichael.xcuserdatad/xcschemes/Pod
 MeInfoGram/MeInfoGram.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
 MeInfoGram/MeInfoGram.xcodeproj/xcuserdata/mobanmichael.xcuserdatad/xcschemes/xcschememanagement.plist
 MeInfoGram/MeInfoGram.xcodeproj/xcuserdata/mobanmichael.xcuserdatad/xcschemes/xcschememanagement.plist
+*.xcscheme
+MeInfoGram/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-dummy.m
+MeInfoGram/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist
+MeInfoGram/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch
+MeInfoGram/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h
+MeInfoGram/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.modulemap

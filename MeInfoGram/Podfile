@@ -8,6 +8,7 @@ target 'MeInfoGram' do
   # Pods for MeInfoGram
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'MBProgressHUD'
 
   target 'MeInfoGramTests' do
     inherit! :search_paths

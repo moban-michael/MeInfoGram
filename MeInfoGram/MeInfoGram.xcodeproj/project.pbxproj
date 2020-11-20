@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,18 @@
 		7EB32015B263AD11E2296FDF /* Pods_MeInfoGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A983155C174815D18C2BC3 /* Pods_MeInfoGram.framework */; };
 		813B028F256801C2000840AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B028E256801C2000840AE /* AppDelegate.swift */; };
 		813B0291256801C2000840AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B0290256801C2000840AE /* SceneDelegate.swift */; };
-		813B0293256801C2000840AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B0292256801C2000840AE /* ViewController.swift */; };
+		813B0293256801C2000840AE /* MyInfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B0292256801C2000840AE /* MyInfoListViewController.swift */; };
 		813B0296256801C2000840AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813B0294256801C2000840AE /* Main.storyboard */; };
 		813B0298256801C7000840AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813B0297256801C7000840AE /* Assets.xcassets */; };
 		813B029B256801C7000840AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813B0299256801C7000840AE /* LaunchScreen.storyboard */; };
 		813B02A6256801C7000840AE /* MeInfoGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B02A5256801C7000840AE /* MeInfoGramTests.swift */; };
 		813B02B1256801C7000840AE /* MeInfoGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B02B0256801C7000840AE /* MeInfoGramUITests.swift */; };
+		813B02F925681EF9000840AE /* MyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B02F825681EF9000840AE /* MyInfo.swift */; };
+		813B030125681F32000840AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B02FF25681F31000840AE /* LoginViewController.swift */; };
+		813B030A25681F78000840AE /* MyInfoListViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B030925681F78000840AE /* MyInfoListViewModal.swift */; };
+		813B031525681FEE000840AE /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B031425681FEE000840AE /* Common.swift */; };
+		813B032F2568315C000840AE /* LoginManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B032E2568315C000840AE /* LoginManger.swift */; };
+		813B0338256832FF000840AE /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B0337256832FF000840AE /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,7 @@
 		813B028B256801C2000840AE /* MeInfoGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeInfoGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813B028E256801C2000840AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813B0290256801C2000840AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		813B0292256801C2000840AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		813B0292256801C2000840AE /* MyInfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoListViewController.swift; sourceTree = "<group>"; };
 		813B0295256801C2000840AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		813B0297256801C7000840AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813B029A256801C7000840AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +64,12 @@
 		813B02AC256801C7000840AE /* MeInfoGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeInfoGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813B02B0256801C7000840AE /* MeInfoGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeInfoGramUITests.swift; sourceTree = "<group>"; };
 		813B02B2256801C7000840AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813B02F825681EF9000840AE /* MyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfo.swift; sourceTree = "<group>"; };
+		813B02FF25681F31000840AE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		813B030925681F78000840AE /* MyInfoListViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoListViewModal.swift; sourceTree = "<group>"; };
+		813B031425681FEE000840AE /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		813B032E2568315C000840AE /* LoginManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManger.swift; sourceTree = "<group>"; };
+		813B0337256832FF000840AE /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		9B638D8D8578EBA23D170080 /* Pods_MeInfoGramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeInfoGramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17ADD3B82534A336EBDDAF9 /* Pods-MeInfoGramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeInfoGramTests.release.xcconfig"; path = "Target Support Files/Pods-MeInfoGramTests/Pods-MeInfoGramTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC51040745860A8C660FAD25 /* Pods-MeInfoGram-MeInfoGramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeInfoGram-MeInfoGramUITests.release.xcconfig"; path = "Target Support Files/Pods-MeInfoGram-MeInfoGramUITests/Pods-MeInfoGram-MeInfoGramUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +113,6 @@
 				3A7E3FC925C0520F6D877F8E /* Pods-MeInfoGramTests.debug.xcconfig */,
 				F17ADD3B82534A336EBDDAF9 /* Pods-MeInfoGramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,9 +141,14 @@
 		813B028D256801C2000840AE /* MeInfoGram */ = {
 			isa = PBXGroup;
 			children = (
+				813B0336256832E0000840AE /* Extensions */,
+				813B032D25683142000840AE /* Manager */,
+				813B030825681F3A000840AE /* View Modal */,
+				813B02FD25681F15000840AE /* View */,
+				813B02F725681EDB000840AE /* Model */,
+				813B02F625681EAC000840AE /* Common */,
 				813B028E256801C2000840AE /* AppDelegate.swift */,
 				813B0290256801C2000840AE /* SceneDelegate.swift */,
-				813B0292256801C2000840AE /* ViewController.swift */,
 				813B0294256801C2000840AE /* Main.storyboard */,
 				813B0297256801C7000840AE /* Assets.xcassets */,
 				813B0299256801C7000840AE /* LaunchScreen.storyboard */,
@@ -157,6 +173,55 @@
 				813B02B2256801C7000840AE /* Info.plist */,
 			);
 			path = MeInfoGramUITests;
+			sourceTree = "<group>";
+		};
+		813B02F625681EAC000840AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				813B031425681FEE000840AE /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		813B02F725681EDB000840AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				813B02F825681EF9000840AE /* MyInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		813B02FD25681F15000840AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				813B0292256801C2000840AE /* MyInfoListViewController.swift */,
+				813B02FF25681F31000840AE /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		813B030825681F3A000840AE /* View Modal */ = {
+			isa = PBXGroup;
+			children = (
+				813B030925681F78000840AE /* MyInfoListViewModal.swift */,
+			);
+			path = "View Modal";
+			sourceTree = "<group>";
+		};
+		813B032D25683142000840AE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				813B032E2568315C000840AE /* LoginManger.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		813B0336256832E0000840AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				813B0337256832FF000840AE /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C3CFC6AAE3F6083655A29358 /* Frameworks */ = {
@@ -407,9 +472,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813B0293256801C2000840AE /* ViewController.swift in Sources */,
+				813B031525681FEE000840AE /* Common.swift in Sources */,
+				813B030125681F32000840AE /* LoginViewController.swift in Sources */,
+				813B0293256801C2000840AE /* MyInfoListViewController.swift in Sources */,
+				813B02F925681EF9000840AE /* MyInfo.swift in Sources */,
+				813B0338256832FF000840AE /* UIViewControllerExtensions.swift in Sources */,
+				813B030A25681F78000840AE /* MyInfoListViewModal.swift in Sources */,
 				813B028F256801C2000840AE /* AppDelegate.swift in Sources */,
 				813B0291256801C2000840AE /* SceneDelegate.swift in Sources */,
+				813B032F2568315C000840AE /* LoginManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -570,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
